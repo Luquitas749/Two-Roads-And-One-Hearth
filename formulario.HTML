@@ -1,0 +1,188 @@
+<!--#########################################################-->
+<!--#########################################################-->
+<!--##                                                     ##-->
+<!--## Site   : nome do sítio                              ##-->
+<!--## Autor  : Lucas Harmbacher Gomes                     ##-->
+<!--## Data   : 27/02/2020                                 ##-->
+<!--## Versão : Versão do sítio                            ##-->
+<!--## Arquivo: nome da página que compõe o sítio          ##-->
+<!--##                                                     ##-->
+<!--#########################################################-->
+<!--#########################################################-->
+<!DOCTYPE HTML>
+<html lang="pt-br">
+    <head>
+       <meta harset="utf-8" />
+       <title> Minha primeira página</title>
+    </head>
+   
+   <body bgcolor="silver">
+    
+<center>
+<form class="formulario" method="post"> 
+        <center><h2> Envie uma mensagem preenchendo o formulário abaixo</h2></center>
+        
+        <table border=0 >
+            
+            <tr><th>
+                <br><label for="nome">Seu Nome:</label></br>
+                </th> 
+                <th><input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+                </th>
+            </tr>
+           
+            
+            <tr><th>
+                <label for="telefone">Seu Telefone:</label>
+                </th> 
+                <th><input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+                </th>
+            </tr>
+
+            <tr><th>
+                <label for="email">Seu E-Mail:</label>
+                </th> 
+                <th><input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+                </th>
+            </tr>
+	 
+	<tr><th>
+
+	<label> Escolha um Estado</label>
+	</th>
+
+	<th>
+	<select id="       estado" name="estado">
+	<option>Selecione...</option>
+
+	<optgroup label= "Norte">
+	<option value="AM">Amazonas</option>
+	<option value="RR">Roraima</option>
+	<option value="AP">Amapá</option>
+	<option value="PA">Pará</option>
+	<option value="TO">Tocantins</option>
+	<option value="RO">Rondonia</option>
+	<option value="AC">Acre</option>
+
+	</optgrounp>
+
+	<optgroup label= "Nordeste">
+	<option value="MA">Maranhão</option>
+	<option value="PI">Piauí</option>
+	<option value="CE">Ceará</option>
+	<option value="RN">Rio Grande do Norte</option>
+	<option value="PE">Pernanbuco</option>
+	<option value="PB">Paraíba</option>
+	<option value="SE">Sergipe</option>
+	<option value="AL">Alagoas</option>
+	<option value="BA">Bahia</option>
+
+	</optgrounp>
+
+	<optgroup label= "Centro-Oeste">
+	<option value="MT">Mato Grosso</option>
+	<option value="MS">Mato Grosso do Sul</option>
+	<option value="GO">Goiás</option>
+
+	</optgrounp>
+
+	<optgroup label= "Sudeste">
+	<option value="SP">São Paulo</option>
+	<option value="RJ">Rio de Janeiro</option>
+	<option value="ES">Espírito Santo</option>
+	<option value="MG">Minas Gerais</option>
+
+	</optgrounp>
+
+	<optgroup label= "Sul">
+	<option value="PR">Paraná</option>
+	<option value="RS">Rio Grande do Sul</option>
+	<option value="SC">Santa Catarina</option>
+
+	</optgrounp>
+
+	</th>
+
+	</select>
+
+	</form>
+	</th>
+	</tr>
+
+
+
+          <tr>
+          
+         <p align="center">
+        
+        
+        <center><th><legend> Endereço</legend>
+       
+            </th>
+            
+            <tr></tr>
+            
+            <th><label>Cep:</label>
+            <input type= "text" name="cep" id="cep" required
+            
+            </th>
+            <tr></tr>
+
+	          <th><label>Cidade:</label>
+	          <input type= "text" name="Cidade" id="Cidade" required/
+          
+            </th>
+            <tr></tr>       
+  
+            <th><label>Rua:</label>
+            <input type= "text" name="Rua" id="Rua" required/>
+             
+             </th>
+             <tr></tr>
+
+            <th><label>Bairro:</label>
+            <input type= "text" name="Bairro" id="Bairro" required/>
+            
+            </th>
+            <tr></tr>
+ 
+            <th><label>Numero:</label>
+            <input type= "numero" name="numero" id="Numero"/>
+            
+            </th>
+            <tr></tr>
+            
+            <th><label>Complemento:</label>
+            <input type= "text" name="complemento"  id="complemento"/>   
+            
+            </p>
+            
+            </th>
+            <tr></tr>
+        </center>
+         
+           
+            <th>
+                <span>Deseja receber nossas novidades?</span>
+                </th> 
+                <th><input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+                    <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+                </th>
+            </tr>
+
+            <tr><th>
+                <label for="mensagem">Sua mensagem:</label>
+                </th> 
+                <th><textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+                </th>
+            </tr> 
+<br>
+        </table>
+
+        <br> <input type="submit" name="acao" value="Enviar"> </br>
+    </form>
+    <br> <center><b><a href="file:///F:/SENAI%201TDS/LIMA%20-%20ANA/Aula%206/SITE/index.html" title="Voltar">Voltar</a><b> </br>
+</center>
+   
+   </body>
+</html>
